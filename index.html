@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Password Strength Indicator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="registrationForm">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" required />
+          <div class="strength-indicator"></div>
+          <div class="requirements">
+            <div class="requirement-item" id="length">
+              At least 8 characters
+            </div>
+            <div class="requirement-item" id="uppercase">
+              At least 1 uppercase letter
+            </div>
+            <div class="requirement-item" id="lowercase">
+              At least 1 lowercase letter
+            </div>
+            <div class="requirement-item" id="number">At least 1 number</div>
+            <div class="requirement-item" id="special">
+              At least 1 special character
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" required />
+          <div class="error-message" id="confirmError"></div>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
