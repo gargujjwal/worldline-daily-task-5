@@ -35,7 +35,7 @@ HTML, CSS, and JavaScript with the following requirements:
 
 ## Deployment
 
-Live Demo: [Password Strength Indicator](https://ujjwalgarg100204.github.io/worldline-daily-task-5/)
+Live Demo: [Password Strength Indicator](https://gargujjwal.github.io/worldline-daily-task-5/)
 
 ## Author
 
